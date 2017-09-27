@@ -33,8 +33,8 @@
 package sysexits
 
 const (
-	// Ok (0) is the code for successful termination.
-	Ok = 0
+	// OK (0) is the code for successful termination.
+	OK = 0
 
 	// Usage (64) indicates that the command was used incorrectly, e.g., with
 	// the wrong number of arguments, a bad flag, a bad syntax in a parameter,
