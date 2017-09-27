@@ -81,8 +81,8 @@ const (
 	OSFile = 72
 
 	// CantCreat (73) indicates that a (user specified) output file cannot be
-	// created.  It's actually called that in sysexits.h so get off my case
-	// about the spelling lol.
+	// created.  Why it's called creat exactly, I don't know. I suppose it's
+	// faster to say. See `man 2 creat`.
 	CantCreat = 73
 
 	// IOErr (74) indicates that an error occurred while doing I/O on some
