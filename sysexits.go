@@ -65,14 +65,14 @@ const (
 	// non-operating system related errors as possible.
 	Software = 70
 
-	// OsErr means an operating system error has been detected.  This is intended to be used for
+	// OSErr means an operating system error has been detected.  This is intended to be used for
 	// such things as ``cannot fork'', ``cannot create pipe'', or the like.  It includes things
 	// like getuid returning a user that does not exist in the passwd file.
-	OsErr = 71
+	OSErr = 71
 
-	// OsFile means some system file (e.g., /etc/passwd, /var/run/utmp, etc.) does not exist,
+	// OSFile means some system file (e.g., /etc/passwd, /var/run/utmp, etc.) does not exist,
 	// cannot be opened, or has some sort of error (e.g., syntax error).
-	OsFile = 72
+	OSFile = 72
 
 	// CantCreat means a (user specified) output file cannot be created.
 	// It's actually called that in sysexits.h so get off my case about the spelling lol.
